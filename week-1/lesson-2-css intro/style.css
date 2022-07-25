@@ -1,0 +1,53 @@
+/* universal selector */
+.p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Josefin Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: red;
+}
+body {
+  background-color: rgb(25, 100, 187);
+  background: linear-gradient(135deg, #0a99db, #dd108e);
+  height: 100vh;
+}
+/* class selector */
+.blocks {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 10px;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  /* display: inline-block; */
+  /* display: inline; */
+  /* display: block; */
+  /* display: none; */
+}
+#google-link {
+  text-decoration: none;
+  font-weight: 700;
+}
+#image-block {
+  background: url(./Без\ названия.jpg);
+  height: 200px;
+}
+
+/* единицы измеряются */
+/* vh - view height - высота экрана (измеряется%)  */
+/* vi vw - view width - ширина экрана (измеряется в %) */
+.iframe {
+  display: flex;
+}

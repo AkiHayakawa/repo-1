@@ -1,0 +1,60 @@
+.block-1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(48, 114, 247);
+}
+.block-1:hover {
+  background-color: yellow;
+  transition: 2s;
+}
+.block-2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(120, 17, 136);
+}
+a:visited {
+  color: red;
+}
+input:focus {
+  background-color: rgb(37, 179, 27);
+  border: 9px solid rgb(90, 50, 143);
+  outline: none;
+}
+input::placeholder {
+  text-align: center;
+}
+li:first-child {
+  color: blue;
+}
+li:last-child {
+  color: green;
+}
+li:nth-child(2) {
+  color: lawngreen;
+}
+li::marker {
+  color: red;
+}
+li {
+  list-style-type: square;
+}
+h2::before {
+  content: ":+";
+}
+h2::after {
+  content: ":+";
+}
+p::selection {
+  color: rgb(27, 6, 135);
+  background-color: rgb(110, 14, 14);
+}
+p::first-letter {
+  font-size: 50px;
+}
+p::first-line {
+  font-size: 33px;
+  color: rgba(19, 41, 60, 0.589);
+}
+h3:not(.text-2) {
+  background-color: aqua;
+}
